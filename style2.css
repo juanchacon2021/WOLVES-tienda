@@ -153,49 +153,53 @@ header {
 
 /*        COMPRAS       */
 
-.compra {
-    padding: 5%;
+.metodo {
+    padding: 10%;
     display: flex;
     justify-content: space-between;
 }
 
-.compra img {
+h1 {
+    text-align: center;
+    font-family: 'Raleway';
+    padding-top: 5%;
+    font-weight: 800;
+    font-size: 3em;
+}
+
+.metodo img {
     width: 12em;
     height: auto;
     padding-right: 2em;
 }
 
-.compra h1 {
-    font-family: 'Raleway',sans-serif;
+.m1 {
+    width: 50%;
 }
 
-.compra h5 {
-    font-family: 'Raleway',sans-serif;
+.metodo ul {
+    list-style: circle;
 }
 
-.compra p {
-    padding: 2% 0%;
-    font-family: 'Raleway',sans-serif;
+.metodo ul li {   
+    font-size: 1.2em;
+    padding-bottom: 2%;
 }
 
-.compra ul {
-    list-style: none;
-    display: flex;
-}
-
-.compra ul li a {
+.metodo ul li a {
     text-decoration: none;
     font-family: 'Raleway',sans-serif;
     font-weight: 700;
     color: black;
 }
 
-.compra ul li a:hover {
+.metodo ul li:hover {
     transition: .3s;
     color: #ce3737;
+    cursor: pointer;
 }
 
-.compra ul li {
+.metodo ul li {
     padding-right: 2%;
 }
 
@@ -286,58 +290,6 @@ header {
     background-size: 100% 100%;
 }
 
-.politicas {
-    padding: 5%;
-    display: flex;
-    justify-content: space-between;
-}
-
-.politicas img {
-    width: 12em;
-    height: auto;
-    padding-right: 2em;
-}
-
-.politicas h1 {
-    font-family: 'Raleway',sans-serif;
-}
-
-.politicas h5 {
-    font-family: 'Raleway',sans-serif;
-}
-
-.politicas p {
-    padding: 2% 0%;
-    font-family: 'Raleway',sans-serif;
-}
-
-.poli {
-    font-family: Arial, Helvetica, sans-serif;
-    text-decoration: none;
-    color: rgb(0, 75, 236);
-    font-weight: 700;
-}
-
-.politicas ul {
-    list-style: none;
-    display: flex;
-}
-
-.politicas ul li a {
-    text-decoration: none;
-    font-family: 'Raleway',sans-serif;
-    font-weight: 700;
-    color: black;
-}
-
-.politicas ul li a:hover {
-    transition: .3s;
-    color: #ce3737;
-}
-
-.politicas ul li {
-    padding-right: 2%;
-}
 
 /*        FORMULARIO         */
 
@@ -625,73 +577,7 @@ input::placeholder, textarea::placeholder {
         font-size: 15px;
     }
 
-    .politicas {
-        padding: 5%;
-        display: block;
-        justify-content: space-between;
-    }
     
-    .politicas img {
-        width: 12em;
-        height: auto;
-        padding-left: 15%;
-    }
-    
-    .politicas h1 {
-        font-family: 'Raleway',sans-serif;
-    }
-    
-    .politicas h5 {
-        font-family: 'Raleway',sans-serif;
-    }
-    
-    .politicas p {
-        padding: 2% 0%;
-        font-family: 'Raleway',sans-serif;
-    }
-    
-    .poli {
-        font-family: Arial, Helvetica, sans-serif;
-        text-decoration: none;
-        color: rgb(0, 75, 236);
-        font-weight: 700;
-    }
-    
-    .politicas ul {
-        list-style: none;
-        display: block;
-    }
-    
-    .politicas ul li a {
-        text-decoration: none;
-        font-family: 'Raleway',sans-serif;
-        font-weight: 700;
-        color: black;
-    }
-    
-    .politicas ul li a:hover {
-        transition: .3s;
-        color: #ce3737;
-    }
-    
-    .politicas ul li {
-        padding-right: 2%;
-    }
-
-    .compra {
-        padding: 5%;
-        display: block;
-        justify-content: space-between;
-    }
-    .compra img {
-        width: 12em;
-        height: auto;
-        padding-left: 15%;
-    }
-    .compra ul {
-        list-style: none;
-        display: block;
-    }
 
     .footer {
         padding: 10px;
