@@ -84,7 +84,7 @@ header {
 
 .container .card{
     width: 330px;
-    height: 23em;
+    height: 20em;
     border-radius: 8px;
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
     overflow: hidden;
@@ -523,7 +523,7 @@ input::placeholder, textarea::placeholder {
 
     .container .card{
         width: 330px;
-        height: 23em;
+        height: 20em;
         border-radius: 8px;
         box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
         overflow: hidden;
