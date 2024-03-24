@@ -472,7 +472,7 @@ input::placeholder, textarea::placeholder {
     #slogan {
         font-family: lemon milk;
         font-style: italic;
-        font-weight: 100;
+        font-weight: 300;
         font-size: 25px;
         padding-bottom: 2px;
         width: 80%;
