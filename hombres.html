@@ -10,23 +10,98 @@
 
 </head>
 <body>
-    <header>
-        <img class="logo" src="img/wolvesblanco.png" alt="Logo">
-        <button id="abrir" class="abrir-menu"><i class="fas fa-bars"></i></button>
-        <nav class="nav" id="nav">
-            <button class="cerrar-menu" id="cerrar"><i class="fas fa-bars"></i></button>
-            <ul class="nav-list">
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="index.html#int-1">Quiénes somos</a></li>
-                <li><a href="hombres.html">Hombres</a></li>
-                <li><a href="mujeres.html">Mujeres</a></li>
-                <li><a href="ninos.html">Niños</a></li>
-            </ul>
-        </nav>
-    </header>
-    
-    <script src="./js/main.js"></script>
 
+    <nav class="nav">
+
+        <div class="nav__container">
+
+            <div class="nav__title">
+                <img src="img/wolvesblanco.png" alt="">
+            </div>
+
+            <a href="#menu" class="nav__menu">
+                <img src="./assets/menu.svg" class="nav__icon">
+            </a>
+
+            <a href="#" class="nav__menu nav__menu--second">
+                <img src="./assets/close.svg" class="nav__icon ">
+            </a>
+
+            <ul class="dropdown" id="menu">
+
+                <li class="dropdown__list">
+                    <a href="index.html" class="dropdown__link">
+                        <img src="./assets/house.svg" class="dropdown__icon">
+                        <span class="dropdown__span">Inicio</span>
+                    </a>
+                </li>
+
+                <li class="dropdown__list">
+                    <a href="#" class="dropdown__link">
+                        <img src="./assets/projects.png" class="dropdown__icon">
+                        <span class="dropdown__span">Ropa</span>
+                        <img src="./assets/down.svg" class="dropdown__arrow">
+
+                        <input type="checkbox" class="dropdown__check">
+                    </a>
+
+                    <div class="dropdown__content">
+
+                        <ul class="dropdown__sub">
+
+                            <li class="dropdown__li">
+                                <a href="hombres.html" class="dropdown__anchor">Hombres</a>
+                            </li>
+                            <li class="dropdown__li">
+                                <a href="mujeres.html" class="dropdown__anchor">Mujeres</a>
+                            </li>
+                            <li class="dropdown__li">
+                                <a href="ninos.html" class="dropdown__anchor">Niños</a>
+                            </li>
+
+                        </ul>
+
+                    </div>
+                </li>
+
+                <li class="dropdown__list">
+                    <a href="#" class="dropdown__link">
+                        <img src="./assets/email.svg" class="dropdown__icon">
+                        <span class="dropdown__span">Nosotros</span>
+                        <img src="./assets/down.svg" class="dropdown__arrow">
+
+                        <input type="checkbox" class="dropdown__check">
+                    </a>
+
+                    <div class="dropdown__content">
+
+                        <ul class="dropdown__sub">
+
+                            <li class="dropdown__li">
+                                <a href="index.html#int-1" class="dropdown__anchor">Quienes Somos</a>
+                            </li>
+                            <li class="dropdown__li">
+                                <a href="index.html#contacto1" class="dropdown__anchor">Contacto</a>
+                            </li>
+                          
+
+                        </ul>
+
+                    </div>
+                </li>
+
+                <li class="dropdown__list">
+                    <a href="#faqstitle" class="dropdown__link">
+                        <img src="./assets/help.svg" class="dropdown__icon">
+                        <span class="dropdown__span">FAQs</span>
+                    </a>
+                </li>
+
+            </ul>
+
+        </div>
+
+    </nav>
 
     <h1 id="inicio"><a href="index.html" style="text-decoration: none; color: #2e2e2e;">Inicio</a> / Hombres</h1>
     <h1 id="inicio">Mostrando 1-16 resultados</h1>
