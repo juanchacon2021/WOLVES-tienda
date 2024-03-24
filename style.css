@@ -522,7 +522,8 @@ input::placeholder, textarea::placeholder {
     
     #faqstitle {
         font-size: 4em;
-        padding: 0px 40px 50px 40px;
+        padding: 0px 0px 15px 0px;
+        text-align: left;
     }
     
     #faqstxt {
@@ -561,16 +562,16 @@ input::placeholder, textarea::placeholder {
     
     .socialtexto {
         display: flex;
-        align-items: center;
-        justify-content: center;
-        padding: 20px;
+        align-items: none;
+        justify-content: none;
+        padding: 5px;
         
     }
     
     #socialtitle {
         font-size: 3em;
         padding-top: 40px;
-        text-align: center;
+        text-align: left;
     }
 
     #socialimage {
