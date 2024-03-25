@@ -248,6 +248,10 @@
     justify-content: space-between;
 }
 
+.container-compra {
+    display: flex;
+}
+
 .compra img {
     width: 12em;
     height: auto;
@@ -269,7 +273,6 @@
 
 .compra ul {
     list-style: none;
-    display: flex;
 }
 
 .compra ul li a {
@@ -581,7 +584,8 @@ input::placeholder, textarea::placeholder {
     
     #faqstitle {
         font-size: 4em;
-        padding: 0px 40px 50px 40px;
+        padding: 0px 0px 15px 0px;
+        text-align: left;
     }
     
     #faqstxt {
@@ -598,6 +602,38 @@ input::placeholder, textarea::placeholder {
         background-color: #FF5F5F;
         color: white;
         justify-content: space-between;
+    }
+    
+    .frecuentes {
+        width: 50%;
+        font-family: 'Raleway';
+    }
+    
+    .social {
+        width: 100%;
+    }
+    
+    #textlink1 {
+        text-decoration: none;
+        color: white;
+        font-family: 'Raleway';
+        font-weight: 600;
+        padding-left: 10px;
+        text-align: center;
+    }
+    
+    .socialtexto {
+        display: flex;
+        align-items: none;
+        justify-content: none;
+        padding: 5px;
+        
+    }
+    
+    #socialtitle {
+        font-size: 3em;
+        padding-top: 40px;
+        text-align: left;
     }
     
     .frecuentes {
